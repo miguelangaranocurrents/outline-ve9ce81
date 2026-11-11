@@ -409,7 +409,7 @@ class UiStore {
     if (pane === "secondary") {
       this.secondaryRightSidebar = panel;
     } else {
-      this.rightSidebar = panel;
+      this.set({ rightSidebar: panel });
     }
   };
 
